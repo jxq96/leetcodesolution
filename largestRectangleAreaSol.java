@@ -2,7 +2,6 @@ public class largestRectangleAreaSol{
         // this solution is poor, time complexity O(n^2)
     // space complexity O(n)
     public int largestRectangleArea(int[] heights) {
-        if(heights.length!=0){
         int[] tmp = new int[heights.length];
         int length = heights.length;
         for(int i = 0;i < length;i++){
@@ -23,9 +22,5 @@ public class largestRectangleAreaSol{
             }
         }
         return max;
-        }
-        else{
-            return 0;
-        }
     }
 }
