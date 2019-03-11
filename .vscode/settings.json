@@ -4,5 +4,6 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "python.pythonPath": "E:\\Anaconda3\\envs\\leetcode\\python.exe"
 }
