@@ -16,4 +16,4 @@ class Solution:
                 p = stack.pop()
                 res.append(p.val)
                 p = p.right
-        return res
+        return resP
